@@ -29,6 +29,8 @@ export class AppComponent {
   }
 
   onThrowError() {
-    throw Error('Some error');
+    var x: any = {};
+
+    x.baba.lala = 5;
   }
 }
