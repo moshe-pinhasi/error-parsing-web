@@ -1,0 +1,6 @@
+<section class="todo-list-container" *ngFor="let todo of todos">
+  <div class="todo">
+    <p>{{ todo.content }}</p>
+    <p *ngIf="todo.doneAt">Done at: {{ todo.doneAt }}</p>
+  </div>
+</section>

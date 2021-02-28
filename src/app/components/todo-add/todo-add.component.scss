@@ -1,0 +1,19 @@
+.add-todo-form {
+    margin: 15px 0;
+
+    * {
+        border-radius: 10px;
+        border: 1px solid #cecece;
+        padding: 10px;
+        outline: none;
+
+        &:not(:first-child) {
+            margin-left: 10px;
+        }
+    }
+
+    button {
+        background-color: #eeeeee;
+        font-weight: bold;
+    }
+}

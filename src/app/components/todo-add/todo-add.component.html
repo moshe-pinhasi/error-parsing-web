@@ -1,0 +1,17 @@
+<form class="add-todo-form" (submit)="onSubmitTodo()">
+  <input
+    type="text"
+    class="todo-input"
+    placeholder="Todo text"
+    [(ngModel)]="todo.content"
+    name="todo-content"
+  />
+  <input
+    type="text"
+    class="todo-input"
+    placeholder="Todo description"
+    [(ngModel)]="todo.description"
+    name="todo-description"
+  />
+  <button>Add todo</button>
+</form>
