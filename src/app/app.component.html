@@ -4,5 +4,9 @@
     <button (click)="onThrowError()">Throw error!</button>
     <todo-add (addTodoEvent)="onAddTodo($event)"></todo-add>
     <todo-list [todos]="todos"></todo-list>
+
+    <div *ngIf="ab.test === true">
+      this is the ngIf section
+    </div>
   </div>
 </div>

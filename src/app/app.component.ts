@@ -8,8 +8,11 @@ import { Todo } from './models/Todo';
 })
 export class AppComponent {
   todos: Todo[];
+  ab: any;
 
   ngOnInit(): void {
+    this.ab = {test: true}
+
     this.todos = [
       {
         content: 'First todo',
@@ -29,6 +32,7 @@ export class AppComponent {
   }
 
   onThrowError() {
-    throw Error('Some error');
+    // throw Error('Some error');
+    this.ab = null
   }
 }
