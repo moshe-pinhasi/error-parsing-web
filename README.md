@@ -19,6 +19,9 @@ Run `npm run lookup [filename]:[line]:[column]` to find the error in sourcemap
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## More libraries
+https://www.npmjs.com/package/retrace
+https://www.npmjs.com/package/source-map-cli
 
 ## More info
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
