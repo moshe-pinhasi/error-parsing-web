@@ -1,5 +1,5 @@
 # Sourcemap Lookup example from minified js files
-This project shows how you can find file that had exception when your files are minified in prod (using 'sourcemap-lookup')
+This project shows how you can find file that had exception when your files are minified in prod using [sourcemap-lookup](https://www.npmjs.com/package/sourcemap-lookup)
 
 ## Build
 Run `npm run build` to build the project. The build artifacts will be stored in the `distWithSourceMaps` directory.
