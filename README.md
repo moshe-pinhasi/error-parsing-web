@@ -8,12 +8,11 @@ Note: you can run this app using `live-server`. you can readm more about this [h
 ## Lookup
 Run `npm run lookup [filename]:[line]:[column]` to find the error in sourcemap
 
-Example:
-&nbsp;
+Example:\
 ![image info](./imgs/error.png)
 
 ```
-npm run lookup ./distWithSourceMaps/main.e904d4b5642642815c7b.js:1:239140 
+> npm run lookup ./distWithSourceMaps/main.e904d4b5642642815c7b.js:1:239140 
 ```
 ![image info](./imgs/lookup.png)
 
