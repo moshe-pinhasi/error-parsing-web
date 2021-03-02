@@ -9,6 +9,7 @@ Note: you can run this app using `live-server`. you can readm more about this [h
 Run `npm run lookup [filename]:[line]:[column]` to find the error in sourcemap
 
 Example:
+&nbsp;
 ![image info](./imgs/error.png)
 
 ```
